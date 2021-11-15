@@ -1,30 +1,16 @@
-import java.awt.*;
 import java.io.*;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.awt.AWTException;
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Frame;
 import java.awt.Robot;
-import java.awt.TextArea;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
 
-@WebServlet("/Home")
+@WebServlet("/")
 public class Home extends HttpServlet {
 
 
