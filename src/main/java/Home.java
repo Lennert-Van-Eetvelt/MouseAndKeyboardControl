@@ -25,7 +25,8 @@ public class Home extends HttpServlet {
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
-            System.out.println(request.getQueryString());
+            String time = java.time.LocalDateTime.now().toString().replace("T"," ").split("\\.")[0];
+            System.out.println(time +" "+ request.getQueryString());
             String mouseX = request.getParameter("mouseX");
             String mouseY = request.getParameter("mouseY");
             String click = request.getParameter("click");
